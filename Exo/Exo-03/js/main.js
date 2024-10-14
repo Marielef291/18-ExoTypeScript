@@ -8,6 +8,7 @@ const email_modal = document.getElementById("email_modal");
 const phone_modal = document.getElementById("phone_modal");
 const avatar_modal = document.getElementById("avatar_modal");
 const closeButton = document.querySelector('button[data-bs-dismiss="modal"]');
+const divListeCOntact = document.getElementById("listeContact");
 const managerContact = new ContactsManager;
 // Fonction pour vider les champs du formulaire
 function clearForm() {

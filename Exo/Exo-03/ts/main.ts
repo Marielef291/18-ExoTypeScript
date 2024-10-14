@@ -9,6 +9,9 @@ const email_modal = document.getElementById("email_modal") as HTMLInputElement;
 const phone_modal = document.getElementById("phone_modal") as HTMLInputElement;
 const avatar_modal = document.getElementById("avatar_modal") as HTMLInputElement;
 const closeButton = document.querySelector('button[data-bs-dismiss="modal"]') as HTMLButtonElement | null;
+const divListeCOntact = document.getElementById("listeContact") as HTMLInputElement;
+
+
 
 const managerContact = new ContactsManager
 // Fonction pour vider les champs du formulaire
